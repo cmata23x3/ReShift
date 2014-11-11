@@ -1,0 +1,10 @@
+<div id="managerWorkplaces">
+	<h1 class="pageTitle"> Workplaces </h1>
+	{{> myWorkplaces}}
+	<form>
+		<button type= "submit" id="newWorkplace-btn" data-toggle="modal" data-target="#createWorkplaceModal" class="btn btn-default"> Create new Workplace </button>
+	</form>
+	{{> otherWorkplaces}}
+</div>
+{{> createWorkplace}}
+{{> workplaceInfo}}

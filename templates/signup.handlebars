@@ -1,0 +1,23 @@
+<div id="signup">
+  <h1>Welcome to ReShift</h1>
+  <h2>Sign up</h2>
+  <div class="error">
+    {{#if error}}
+      {{error}}
+    {{/if}}
+  </div>
+  <form id="signup-form">
+    <div>Name: <input type="text" name="name" class="form-control" required /></div>
+    <div>Email: <input type="email" name="email" class="form-control" required /></div>
+    <div>Password: <input type="password" name="password" class="form-control" required /></div>
+    <div>Confirm Password: <input type="password" name="confirm" class="form-control" required /></div>
+    <div>
+      <input type="radio" name="role" value="manager" checked="checked"> Manager  
+      <input type="radio" name="role" value="employee"> Employee
+    </div>
+    <button class="btn btn-default" type="submit" id="signUp-btn"> Sign up </button>
+    {{!-- <input type="submit" value="sign"> Sign up --}}
+  </form>
+
+</div>
+{{>login}}

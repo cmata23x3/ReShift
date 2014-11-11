@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %>Test Page</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.15.0.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.15.0.js"></script>
+</head>
+<body>
+	<h1><%= title %> Test Page</h1>
+	<div id="container">
+		<div id="employees">
+			<h3>Employee Calls</h3>
+		</div>
+		<div id="managers">
+			<h3>Manager Calls</h3>
+		</div>
+		<div id="shifts">
+			<h3>Shifts Calls</h3>
+		</div>
+		<div id="workplaces">
+			<h3>Workplace Calls</h3>
+		</div>
+		<div id="sessions">
+			<h3>Sessions Calls</h3>
+		</div>
+	</div> <!-- container -->
+	<div id="qunit"></div>
+	<div id="qunit-fixture"></div>
+	<script type="text/javascript" src="javascripts/tests.js"></script>
+</body>
+</html>

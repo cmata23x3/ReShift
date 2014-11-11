@@ -1,0 +1,44 @@
+{{!-- template for the managers table --}}
+<div class="optionContainer">
+	<table>
+		<tr>
+			<th>Managers</th>
+		</tr>
+		{{#each uManagers}}
+		<tr>
+			<td>{{name}}</td>
+			<td>
+				<button data-secret-id={{_id}} class="btn btn-default managerApprovalBtn">Approve</button>
+			</td>
+		</tr>
+		{{/each}}
+
+		{{#each managers}}
+		<tr>
+			<td>{{name}}</td>
+		</tr>
+		{{/each}}
+	</table>
+</div>
+<br>
+<div class="optionContainer">
+	<table>
+		<tr>
+			<th>Employees</th>
+		</tr>
+		{{#each uEmployees}}
+		<tr>
+			<td>{{name}}</td>
+			<td>
+				<button data-secret-id={{_id}} class="btn btn-default employeeApprovalBtn">Approve</button>
+			</td>
+		</tr>
+		{{/each}}
+		{{#each employees}}
+		<tr>
+			<td>{{name}}</td>
+		</tr>
+		{{/each}}
+	</table>
+</div>
+

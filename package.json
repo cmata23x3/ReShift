@@ -1,0 +1,31 @@
+{
+  "name": "ReShift",
+  "version": "0.0.0",
+  "description": "6.170 Project 3 app",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6170-fa14/cmata_trotman_alexrg_proj3"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "bootstrap": "^3.2.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^0.4.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "ejs": "~0.8.5",
+    "express": "~4.9.0",
+    "express-session": "^1.8.2",
+    "handlebars": "^2.0.0",
+    "jquery": "^2.1.1",
+    "mongodb": "*",
+    "mongoose": ">=2.7.0",
+    "mongoose-schema-extend": "^0.1.7",
+    "morgan": "~1.3.0"
+  },
+  "main": "app.js"
+}

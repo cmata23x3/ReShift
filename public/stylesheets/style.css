@@ -1,0 +1,75 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #00B7FF;
+}
+
+#headerSignButton{
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	border: none;
+}
+
+#navbar-name{
+	color: white;
+	text-align:center
+}
+
+/*Sign Up Div on landing page*/
+#signup{ 
+	margin: 0 auto;
+	padding: 50px;
+	max-width: 450px;
+	min-width: 400px;
+	background-color: hsla(193, 0%, 70%, .65);
+	border-radius: 3px;
+	box-shadow: 5px 5px 10px #ccc;
+}
+
+#signUp-btn{
+	background: white;
+}
+
+#newWorkplace-btn{
+	margin-left: 5%;
+}
+
+#employeeWorkplaces{
+	width: 80%;
+	min-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#managerWorkplaces{
+	width: 80%;
+	min-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#myWorkplaces{
+	width: 90%;
+	min-width: 650px;
+	margin: 0 auto 5px auto;
+	min-height: 300px;
+	background-color: hsla(193, 0%, 70%, .65);
+	border-radius: 3px;
+	overflow-y: scroll;
+	padding: 20px;
+}
+
+#otherWorkplaces{
+	width: 90%;
+	min-width: 650px;
+	margin: 30px auto 0 auto;
+	min-height: 300px;
+	background-color: hsla(193, 0%, 70%, .65);
+	border-radius: 3px;
+	overflow-y: scroll;
+	padding: 20px;
+}

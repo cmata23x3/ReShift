@@ -1,0 +1,14 @@
+<select name='workers'>
+	{{#each managers}}
+		<option value={{_id}}>
+			{{name}}
+		</option>
+	{{/each}}
+
+	{{#each employees}}
+		<option value={{_id}}>
+			{{name}}
+		</option>
+	{{/each}}
+
+</select>

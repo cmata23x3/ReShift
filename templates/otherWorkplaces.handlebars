@@ -1,0 +1,12 @@
+<!--
+  Write a template for the entire otherWorkplaces block
+-->
+<div id="otherWorkplaces">
+  <h1>Other Workplaces</h1>
+  {{#each requested}}
+    {{> otherWorkplace}}
+  {{/each}}
+  {{#each other}}
+    {{> otherWorkplace}}
+  {{/each}}
+</div>
